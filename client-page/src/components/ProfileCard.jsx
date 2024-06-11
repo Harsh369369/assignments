@@ -20,11 +20,11 @@ import {
 function ProfileCard() {
   return (
     <Center>
-      <Card box-shadow='lg' maxW="sm" align="center" flexDir="column">
+      <Card box-shadow='lg' borderRadius='md' maxW="sm" align="center" flexDir="column" backgroundColor="white">
         <CardBody display="flex" flexDir="column" alignItems="center">
           <Box position="relative">
             <Image
-              src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7P2dIJP4xmPhm6JUPSd46x7hCvZ-e2g37ng&s"
               alt="Lindsey James"
               borderRadius="full"
               boxSize="100px"
