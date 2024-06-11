@@ -1,0 +1,11 @@
+#root {
+  width: 100%;
+  height: max-content;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #edf2f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
