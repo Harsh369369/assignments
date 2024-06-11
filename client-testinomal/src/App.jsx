@@ -8,9 +8,9 @@ function App() {
   return (
     <ChakraProvider>
       <Header/>
-      <Grid templateColumns="repeat(3, 1fr)" gap={6} backgroundColor="#edf2f6" maxWidth="1080px">
+      <Grid templateColumns={{ base: '1fr', md: 'repeat(3, 1fr)' }} gap={6} backgroundColor="#edf2f6" width="100%" maxWidth="1080px">
         {testimonials.map((testimonial, index) => (
-          <CardOne key={index} testimonial={testimonial} />
+          <CardOne key={index} testimonial={testimonial} width='100%' />
         ))}
       </Grid>
     </ChakraProvider>

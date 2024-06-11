@@ -10,9 +10,9 @@ function About({ title, text }) {
         p={3}
         mx={3}
         mt={3}
-        maxW="sm"
         textAlign="center"
         position="relative"
+        width='100%'
       >
         <Text fontWeight="bold" fontSize="lg" mb={2}>
           {title}
@@ -21,9 +21,7 @@ function About({ title, text }) {
           {text}
         </Text>
       </Box>
-      <Center
-          left="50%"
-          transform="translateX(-50%)">
+      <Center zIndex={1}>
         <Box
           borderTop="15px solid white"
           borderRight="15px solid transparent"
